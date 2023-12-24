@@ -1,0 +1,366 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.front-page {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/about5.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+}
+
+
+
+img {
+    height: 60px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.left,
+.right {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+}
+
+.left {
+    left: 30px;
+}
+
+.right {
+    right: 30px;
+}
+
+.navbar li {
+    display: inline-block;
+    /* margin: 3px 20px; */
+    padding: 7px 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: gray;
+    text-decoration: underline;
+
+
+}
+
+.left p {
+    color: white;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2px;
+}
+
+.right button {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(78, 77, 77);
+    font-size: 17px;
+}
+
+.right a {
+    color: white;
+}
+
+
+
+.right button a:hover,
+.right button a.active {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(168, 162, 162);
+}
+
+.container {
+    margin: 150px 30px;
+    padding: 50px 40px;
+    display: inline-block;
+    width: 40%;
+    color: aliceblue;
+    background-color: #555;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container h3 {
+    margin-top: -50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* .................................card section....................................... */
+
+
+
+.card-heading {
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
+.challanges {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 90px;
+    margin-top: 90px;
+    margin-left: 75px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.8s;
+    /* padding: 35px 50px; */
+    background: gray;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    height: 250px;
+    /* padding: 35px 20px; */
+}
+
+.img-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-75px);
+    margin-left: 20px;
+
+
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.5);
+    /* align-items: center; */
+    margin-right: 30px;
+
+}
+
+.content {
+    padding: -5px 20px;
+    text-align: center;
+    transform: translateY(-450px);
+    opacity: 0;
+    transition: 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+.card:hover>.content {
+    opacity: 1;
+    transform: translateY(-100px);
+}
+
+
+
+/* .....................dividers section........................................ */
+
+.divider1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.left1 {
+    width: 45%;
+    /* height: 300px; */
+}
+
+.divider-img1 {
+    width: 402px;
+    height: 400px;
+    margin-left: 16px;
+    box-shadow: 12px 0px 15px rgba(0, 0, 0, 2.5);
+    border-radius: 10px;
+}
+
+.right1 {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.right1 p {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* ........................................................... */
+
+.divider2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.left2 {
+    width: 45%;
+    /* height: 300px; */
+}
+
+.divider-img2 {
+    width: 409px;
+    height: 400px;
+    margin-left: 23px;
+    box-shadow: 12px 25px 56px rgba(0, 0, 0, 3.5);
+    border-radius: 10px;
+}
+
+.right2 {
+    width: 40%;
+    margin-right: 130px;
+}
+
+.right2 p {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ....................................................... */
+
+.divider3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.left3 {
+    width: 45%;
+    /* height: 300px; */
+}
+
+.divider-img3 {
+    width: 361px;
+    height: 400px;
+    margin-left: 20px;
+    box-shadow: 12px 0px 15px rgba(0, 0, 0, 2.5);
+    border-radius: 10px;
+}
+
+.right3 {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.right3 p {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ........................footer section.............................. */
+
+.footer-container {
+    background-color: rgb(34, 34, 34);
+    height: 250px;
+    width: 100%;
+    color: aliceblue;
+}
+
+.sponsers {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+.sponsers a {
+    margin: 15px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 50%;
+
+}
+
+.sponsers a .icon {
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+}
+
+.sponsers a:hover {
+    color: #111;
+    transition: 0.5s;
+}
+
+
+/* ...............................footers links.................... */
+.footer-links {
+    margin-top: 70px;
+
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.footer-links ul a {
+    color: aliceblue;
+    margin: 20px;
+    text-decoration: none;
+    /* text-transform: none; */
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-links ul a:hover {
+    opacity: 1;
+}
+
+.copy-right {
+    margin: 50px 0;
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+  
+}
